@@ -1,38 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="navigation_view">
+    tools:showIn="navigation_view"
+    >
 
-    <group android:checkableBehavior="single">
+    <group  android:checkableBehavior="single" >
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nav_home"
+            android:title="@string/home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_spice"
+            android:title="@string/spice_legumes" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_oil"
+            android:title="@string/oil_herbs" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nav_beverages"
+            android:title="@string/beverages_cardamom" />
+        <item
+            android:id="@+id/nav_nuts"
+            android:title="@string/nuts_candy_honey" />
+        <item
+            android:id="@+id/nav_others"
+            android:title="@string/others" />
+        <item
+            android:id="@+id/nav_my_cart"
+            android:title="@string/my_cart" />
+        <item
+            android:id="@+id/nav_whishlist"
+            android:title="@string/my_whishlist" />
+        <item
+            android:id="@+id/nav_orders"
+            android:title="@string/my_orders" />
+        <item
+            android:id="@+id/nav_account"
+            android:title="@string/my_account" />
+        <item
+            android:id="@+id/nav_currency"
+            android:title="@string/select_currency" />
+        <item
+            android:id="@+id/nav_language"
+            android:title="@string/select_language" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:title="@string/about_us" />
+        <item
+            android:id="@+id/nav_health_tips"
+            android:title="@string/health_tips" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:title="@string/contact_us" />
     </group>
-
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
-
 </menu>
